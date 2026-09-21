@@ -485,47 +485,47 @@ const RAW_GAMES: readonly GameDefinition[] = [
       ],
     },
   },
-  {
-    slug: "accenture-technical-quiz",
-    name: "Accenture Technical Assessment Quiz",
-    category: "quiz",
-    company: "accenture",
-    kind: "html",
-    htmlFolder: "accenture-technical",
-    tagline: "150 scenario questions across 10 sections, with a 45-minute timer.",
-    difficulty: "hard",
-    duration: "45 min",
-    skills: ["Technical fundamentals", "Networking", "Databases", "Cloud", "Security"],
-    seo: {
-      headline: "Accenture Technical Assessment Quiz — 150 Free Practice Questions",
-      description:
-        "Attempt a full 150-question Accenture technical assessment free online. Ten sections, a 45-minute timer, instant explanations, and a section-wise answer key. No signup required.",
-      keywords: [
-        "accenture technical assessment questions",
-        "accenture quiz practice free",
-        "accenture technical test questions and answers",
-        "accenture assessment 2026 preparation",
-      ],
-      related: ["debugging-assessment-1", "debugging-assessment-2", "bubble-math"],
-      faq: [
-        {
-          question: "How many questions are in the Accenture technical quiz?",
-          answer:
-            "150 questions across ten sections, covering programming fundamentals, databases, networking, operating systems, cloud, and security.",
-        },
-        {
-          question: "When can I see the answers?",
-          answer:
-            "A section's answer key unlocks once every question in it has been attempted, so you cannot read ahead before committing to an answer.",
-        },
-        {
-          question: "Is the timer the same as the real Accenture assessment?",
-          answer:
-            "Yes, 45 minutes for the full set, which is the budget candidates report for the technical section.",
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "accenture-technical-quiz",
+  //   name: "Accenture Technical Assessment Quiz",
+  //   category: "quiz",
+  //   company: "accenture",
+  //   kind: "html",
+  //   htmlFolder: "accenture-technical",
+  //   tagline: "150 scenario questions across 10 sections, with a 45-minute timer.",
+  //   difficulty: "hard",
+  //   duration: "45 min",
+  //   skills: ["Technical fundamentals", "Networking", "Databases", "Cloud", "Security"],
+  //   seo: {
+  //     headline: "Accenture Technical Assessment Quiz — 150 Free Practice Questions",
+  //     description:
+  //       "Attempt a full 150-question Accenture technical assessment free online. Ten sections, a 45-minute timer, instant explanations, and a section-wise answer key. No signup required.",
+  //     keywords: [
+  //       "accenture technical assessment questions",
+  //       "accenture quiz practice free",
+  //       "accenture technical test questions and answers",
+  //       "accenture assessment 2026 preparation",
+  //     ],
+  //     related: ["debugging-assessment-1", "debugging-assessment-2", "bubble-math"],
+  //     faq: [
+  //       {
+  //         question: "How many questions are in the Accenture technical quiz?",
+  //         answer:
+  //           "150 questions across ten sections, covering programming fundamentals, databases, networking, operating systems, cloud, and security.",
+  //       },
+  //       {
+  //         question: "When can I see the answers?",
+  //         answer:
+  //           "A section's answer key unlocks once every question in it has been attempted, so you cannot read ahead before committing to an answer.",
+  //       },
+  //       {
+  //         question: "Is the timer the same as the real Accenture assessment?",
+  //         answer:
+  //           "Yes, 45 minutes for the full set, which is the budget candidates report for the technical section.",
+  //       },
+  //     ],
+  //   },
+  // },
 
   // ══════════════════════════════════════════════════════════════════════════
   // DEBUGGING — code-fixing assessments (Capgemini / TCS / Wipro style)

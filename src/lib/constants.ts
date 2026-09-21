@@ -216,11 +216,11 @@ export const COURSE_CATEGORIES = [
 
 /** Curated set of achiever poster cards from /public/scraped. */
 export const ACHIEVER_IMAGES: string[] = [
-  "Campusmonk-Acheivers-1",
-  "Campusmonk-Acheivers-3",
-  "Campusmonk-Acheivers-5",
-  "Campusmonk-Acheivers-7",
-  "Campusmonk-Acheivers-9",
+  " -Acheivers-1",
+  " -Acheivers-3",
+  " -Acheivers-5",
+  " -Acheivers-7",
+  " -Acheivers-9",
 ]
   .map((n) => `/scraped/${n}.jpeg`)
   .concat(

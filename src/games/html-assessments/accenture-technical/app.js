@@ -1,6 +1,6 @@
 "use strict";
 /**
- * Campusmonk — Accenture Technical Assessment Practice Quiz
+ *   — Accenture Technical Assessment Practice Quiz
  * TypeScript conversion of the original inline <script> logic.
  *
  * Compile with: tsc app.ts --target ES2017 --lib DOM,ES2017 --module none

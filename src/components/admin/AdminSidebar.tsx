@@ -25,6 +25,7 @@ import {
   ShieldCheck,
   Shield,
   Headphones,
+  IndianRupee,
 } from "lucide-react";
 import { signOut } from "@/features/auth/actions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -45,6 +46,7 @@ const NAV_SECTIONS = [
     title: "Operations",
     items: [
       { label: "Overview", href: "/admin", icon: LayoutDashboard, exact: true },
+      { label: "Earnings", href: "/admin/earnings", icon: IndianRupee },
       { label: "Users", href: "/admin/users", icon: Users },
       { label: "Payments", href: "/admin/payments", icon: CreditCard },
       { label: "Subscriptions", href: "/admin/subscriptions", icon: Repeat },

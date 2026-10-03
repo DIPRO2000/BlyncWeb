@@ -48,6 +48,32 @@ body {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
+/* Visible scrollbar utility for admin panels, inner lists, and dense tables */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.4) transparent;
+  -ms-overflow-style: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.35);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(156, 163, 175, 0.65);
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

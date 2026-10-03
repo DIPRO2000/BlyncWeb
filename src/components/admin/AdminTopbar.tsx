@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { ChevronRight, Shield, Bell, RefreshCw } from "lucide-react";
 import ThemeToggle from "@/components/common/ThemeToggle";
+import NotificationBar from "@/components/common/NotificationBar";
 
 export interface AdminTopbarProps {
   adminEmail: string;
@@ -83,6 +84,7 @@ export function AdminTopbar({ adminEmail }: AdminTopbarProps) {
         </div>
 
         <ThemeToggle />
+        <NotificationBar />
       </div>
     </header>
   );

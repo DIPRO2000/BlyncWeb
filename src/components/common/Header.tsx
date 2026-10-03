@@ -22,6 +22,7 @@ import { signOut } from "@/features/auth/actions";
 import { cn } from "@/lib/utils";
 import { GitHubStarsButton } from "../ui/shadcn-io/github-stars-button";
 import ThemeToggle from "./ThemeToggle";
+import NotificationBar from "./NotificationBar";
 
 // Simple hamburger icon with CSS transitions
 function HamburgerIcon({ open }: { open: boolean }) {
@@ -170,6 +171,8 @@ function Navbar() {
             </div>
 
             <ThemeToggle />
+
+            <NotificationBar />
 
             {/* Streak — desktop, authenticated only */}
             {user && <StreakBadge count={streak.currentStreak} className="hidden md:flex" />}

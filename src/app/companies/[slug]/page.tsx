@@ -111,7 +111,7 @@ export default async function PublicCompanyPage({ params }: Props) {
             </Link>
           ) : live && registryGames.length > 0 ? (
             <Link
-              href={playHref(registryGames[0].slug)}
+              href={playHref(registryGames[0])}
               className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-xs font-semibold text-primary-foreground hover:bg-primary/90 transition-colors shadow-xs"
             >
               <Gamepad2 className="h-4 w-4" /> Start Practice
@@ -145,7 +145,7 @@ export default async function PublicCompanyPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             {company.games.map((gameName) => {
               const matchedGame = registryGames.find(
-                (g) => g.title.toLowerCase() === gameName.toLowerCase()
+                (g) => g.name.toLowerCase() === gameName.toLowerCase()
               );
 
               return (
@@ -162,7 +162,7 @@ export default async function PublicCompanyPage({ params }: Props) {
 
                   {matchedGame ? (
                     <Link
-                      href={playHref(matchedGame.slug)}
+                      href={playHref(matchedGame)}
                       className="text-xs font-medium text-primary hover:underline inline-flex items-center gap-1"
                     >
                       Play <ArrowRight className="h-3 w-3" />

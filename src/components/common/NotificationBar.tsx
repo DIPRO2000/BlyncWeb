@@ -85,7 +85,7 @@ export default function NotificationBar({ className }: { className?: string }) {
         id: "notif-linkedin",
         title: "Follow on LinkedIn",
         description: "Connect with Nishul Dhakar for updates, tips & hiring announcements.",
-        href: "https://www.linkedin.com/in/nishuldhakar/",
+        href: "https://www.linkedin.com/company/blync-cognitive-games",
         isExternal: true,
         tag: "Community",
         icon: Linkedin,

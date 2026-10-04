@@ -160,7 +160,7 @@ export default function SocialProof() {
             </span>
             <span className="text-xs text-muted-foreground/50">•</span>
             <a
-              href="https://www.linkedin.com/in/nishuldhakar/"
+              href="https://www.linkedin.com/company/blync-cognitive-games"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors"

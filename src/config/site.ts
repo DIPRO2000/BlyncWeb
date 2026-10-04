@@ -104,6 +104,7 @@ export const siteConfig = {
     twitter: "https://twitter.com/nishuldhakar",
     github: "https://github.com/NishulDhakar/BlyncWeb",
     instagram: "https://instagram.com/blyncgames",
+    linkedin: "https://www.linkedin.com/company/blync-cognitive-games/",
   },
   creator: "@nishuldhakar",
   locale: "en_IN",

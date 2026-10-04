@@ -25,7 +25,7 @@ https://github.com/NishulDhakar/BlyncWeb
 
 Stay updated with new games and features:
 X (Twitter)  → https://x.com/NishulDhakar
-LinkedIn     → https://www.linkedin.com/in/nishuldhakar/
+LinkedIn     → https://www.linkedin.com/company/blync-cognitive-games
 
 Good luck on your placement!
 

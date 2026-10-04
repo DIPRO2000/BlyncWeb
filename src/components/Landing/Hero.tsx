@@ -154,7 +154,7 @@ export default function Hero() {
         variant="outline"
         className="h-12 rounded-full px-6 text-sm font-semibold"
       >
-        <Link href="https://www.linkedin.com/in/nishuldhakar/">
+        <Link href="https://www.linkedin.com/company/blync-cognitive-games">
           Let's Connect
           <ChevronRight className="size-4" />
         </Link>
@@ -189,7 +189,7 @@ export default function Hero() {
       
 
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-4 pt-24 pb-16 text-center sm:pt-28 lg:pt-32">
-        <a
+        {/* <a
           href="https://www.nishul.dev/"
           target="_blank"
           rel="noopener noreferrer"
@@ -208,7 +208,7 @@ export default function Hero() {
           <span className="text-md font-bold text-foreground">
             By Nishul
           </span>
-        </a>
+        </a> */}
 
         <h1 className={`mt-6 max-w-6xl ${landingHeadingClass}`}>
           A quiet practice space for

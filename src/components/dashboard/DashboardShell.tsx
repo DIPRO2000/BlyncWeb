@@ -26,12 +26,12 @@ import {
   Trophy,
   Mic,
 } from "lucide-react";
-
 import { cn } from "@/lib/utils";
 import { navbarConfig } from "@/data/Header";
 import { useUser } from "@/context/UserContext";
 import { signOut } from "@/features/auth/actions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import NotificationBar from "@/components/common/NotificationBar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -490,13 +490,7 @@ export default function DashboardShell({ children }: { children: React.ReactNode
             <div className="flex items-center gap-2">
               <ThemeToggle />
 
-              <button
-                className="relative flex h-8 w-8 items-center justify-center rounded-lg border border-border/70 bg-card hover:bg-muted/60 transition-colors text-muted-foreground hover:text-foreground cursor-pointer"
-                aria-label="Notifications"
-              >
-                <Bell className="h-3.5 w-3.5" />
-                <span className="absolute right-1.5 top-1.5 h-1.5 w-1.5 rounded-full bg-primary" />
-              </button>
+             <NotificationBar />
 
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>

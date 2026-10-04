@@ -92,7 +92,7 @@ export default function GamePaywall({ gameName, className }: GamePaywallProps) {
                 href="/pricing"
                 borderRadius="0.75rem"
                 background="hsl(var(--primary))"
-                className="w-full flex-1 h-11 text-sm font-semibold shadow-lg text-primary-foreground"
+                className="w-full flex-1 h-11 text-sm font-semibold shadow-lg dark:text-white text-foreground "
               >
                 <Zap className="mr-2 h-4 w-4" />
                 <span>Upgrade to Pro — Instant Unlock</span>

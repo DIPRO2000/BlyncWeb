@@ -18,7 +18,6 @@ import {
   Bell,
   Menu,
   X,
-  
   LogOut,
   Crown,
   PanelLeftClose,
